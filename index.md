@@ -1,6 +1,6 @@
 <script type="text/x-mathjax-config">
   MathJax.Hub.Config({
-    tex2jax: {inlineMath: [["$","$"],["\(","\)"]]}
+    tex2jax: {inlineMath: [["$","$"],["\\(","\\)"]]}
   });
 </script>
 <script type="text/javascript" src="../MathJax.js?config=TeX-AMS_HTML-full"></script>
@@ -17,8 +17,8 @@
 
 # Definición:
 
-Un **emparejamiento** (matching) en una gráfica \(G\) es una colección de
-aristas ajenas \(M\). 
+Un **emparejamiento** (matching) en una gráfica $G$ es una colección de
+aristas ajenas $M$. 
 Un **emparejamiento perfecto** es  si la colección de aristas
 ajenas son tales que todo vértice de \(G\) pertenece a
 exactamente una de las aristas de M.  
